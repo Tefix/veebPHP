@@ -50,7 +50,7 @@ img{
 div.flex-container{
     display: flex;
     flex-direction: row;
-    margin-left: 25%;
+    margin-left: 5%;
 }
 
 div.flex-container > div{

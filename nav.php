@@ -4,6 +4,7 @@
         <li><a href="?link=gitkasutamine.php">GitHub too</a></li>
         <li><a href="?link=kalkulator.php">Esimine too</a></li>
         <li><a href="?link=kuupaev.php">Teine too</a></li>
+        <li><a href="?link=ajafunktsioonid.php">ajafunktsioonid</a></li>
 
         <li>
             <strong>
