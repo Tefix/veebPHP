@@ -1,4 +1,12 @@
 <?php
+function clearVarsExcept($url, $varname){
+    $url=basename($url);
+    if(str_starts_with($url,"?")){
+        return "?$varname=".$_REQUEST[$varname];
+    }
+    return strtok($url, "?")."?$varname=".$_REQUEST[$varname];
+}
+
 echo "<h2>Tekstifunktsioonid</h2>";
 $tekst='PHP on skriptikeel serveripoolne';
 echo $tekst;
@@ -65,15 +73,15 @@ echo"<li>Viimased 2 tähte: ".substr($linnanimi, -2)."</li>";
 echo"<li>Neljas täht: ".$linnanimi[3]."</li>";
 echo"<li>Vies täht: ".$linnanimi[4]."</li>";
 ?>
-<form name="tekstikontroll" action="tekstifunktsioonid.php" method="post">
+<form name="tekstikontroll" action="<?=clearVarsExcept($_SERVER['REQUEST_URI'], "link")?>" method="post">
 <input type="text" id="linn" name="linn">
 <input type="submit" value="kontrolli">
 </form>
 <?php
 if (isset($_REQUEST['linn'])) {
-    if($_REQUEST['linn']!='tallinn') {
-        echo "õige";
+    if($_REQUEST['linn']=='Tallinn') {
+        echo $_REQUEST["linn"]. " on õige";
     } else {
-        echo "vale";
+       echo $_REQUEST["linn"].  " on vale";
     }
 }
