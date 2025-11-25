@@ -18,7 +18,7 @@ function synnipaevaLoendur() {
     const tana = new Date();
 
     // Укажи дату своего дня рождения (месяцы считаются с 0: январь = 0, апрель = 3)
-    const synna = new Date(tana.getFullYear(), 3, 17);
+    const synna = new Date(tana.getFullYear(), 2, 17);
 
     if (tana > synna) {
         synna.setFullYear(tana.getFullYear() + 1);
