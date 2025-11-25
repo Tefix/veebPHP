@@ -20,6 +20,7 @@
       <phpcs_by_interpreter asDefaultInterpreter="true" interpreter_id="04144d77-6ede-4c00-a7c9-c4ccb1360845" timeout="30000" />
     </phpcs_settings>
   </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.5" />
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
   </component>

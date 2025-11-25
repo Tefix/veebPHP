@@ -61,4 +61,39 @@ $perenimi = " Zaitsev";
 $format = 'Tere %s %s, arv x: %d';
 echo $nimi;
 echo"<br>";
-printf($format, $perenimi, $nimi);
+//printf($format, $perenimi, $nimi);
+
+echo "<br>";
+echo "<h2>Arv Moistatud. Arva ara kaks arvu (1,10)</h2>";
+echo"<br>";
+$arv5 = 5;
+$arv6 = 7;
+echo "1. Nende summa: ".($arv5+$arv6);
+echo "<br>";
+echo "2. Nende vahe: ".($arv5-$arv6);
+echo "<br>";
+echo "3. Nende korrutis: ".($arv5*$arv6);
+echo "<br>";
+echo "4. Esimene arv on paaritu, teine on paarisarv";
+echo "<br>";
+echo "5. Mõlemad arvud on väiksemad kui 10";
+echo "<br>";
+
+
+if (isset($_POST['arv1']) && isset($_POST['arv2'])) {
+    $guess1 = (int)$_POST['arv1'];
+    $guess2 = (int)$_POST['arv2'];
+
+    if (($guess1 == $arv5 && $guess2 == $arv6) || ($guess1 == $arv6 && $guess2 == $arv5)) {
+        echo "<h3 style='color: green;'>Õige! Arvud olid $arv5 ja $arv6</h3>";
+    } else {
+        echo "<h3 style='color: red;'>Vale! Proovi uuesti😡.</h3>";
+    }
+}
+
+echo "<form method='post'>";
+echo "Esimene arv: <input type='number' name='arv1' min='1' max='10' required><br><br>";
+echo "Teine arv: <input type='number' name='arv2' min='1' max='10' required><br><br>";
+echo "<input type='submit' value='Kontrolli'>";
+echo "</form>";
+echo "<br>";
