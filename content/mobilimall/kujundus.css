@@ -97,3 +97,70 @@ p a:hover{
 .clear{
     clear:both;
 }
+
+/* Content styles */
+#content {
+    margin: 20px 5px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+}
+
+h1 {
+    font-size: 24px;
+    color: #2d2d2d;
+    margin: 0 0 15px 0;
+    padding: 0;
+    text-align: center;
+    border-bottom: 2px solid #3c9ddb;
+    padding-bottom: 10px;
+}
+
+.teade {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    line-height: 1.6;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Footer styles */
+#footer {
+    margin: 20px 5px 0 5px;
+    padding: 15px;
+    background: #2d2d2d;
+    color: #f2f2f2;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .nav ul li {
+        display: block;
+        margin: 0;
+    }
+    
+    .nav ul li a {
+        display: block;
+        border-bottom: 1px solid #444;
+    }
+    
+    .nav ul li:last-child a {
+        border-bottom: none;
+    }
+    
+    h1 {
+        font-size: 20px;
+    }
+    
+    #content {
+        margin: 10px 2px;
+        padding: 10px;
+    }
+}

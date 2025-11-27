@@ -16,7 +16,21 @@ maximum-scale=1.0;">
             <li><a href="naljakas.php">Naljakas</a></li>
             <li><a href="tark.php">Tark</a></li>
             <li><a href="loom.php">Loomad</a></li>
+            <li><a href="../../index.php">index</a></li>
         </ul>
     </div>
 </div>
 <div class="clear"></div>
+
+<div id="content">
+    <h1>Tere tulemast anekdoodide lehele!</h1>
+    <div class="teade">
+        <p>Siin leheküljel leiad erinevaid naljakaid anekdoote ja lugusid. Vali menüüst sobiv kategooria:</p>
+        <ul>
+            <li><strong>Naljakas</strong> - Lõbusad ja naljakad anekdoodid</li>
+            <li><strong>Tark</strong> - Targad ja mõtlemapanevad lood</li>
+            <li><strong>Loomad</strong> - Anekdoodid loomadest</li>
+        </ul>
+        <p>Loodame, et leiad midagi, mis sind naerma paneb!</p>
+    </div>
+</div>

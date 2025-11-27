@@ -7,6 +7,7 @@
         <li><a href="?link=ajafunktsioonid.php">ajafunktsioonid</a></li>
         <li><a href="?link=matem_funktsioonid.php">matemfunktsioonid</a></li>
         <li><a href="?link=pildifunktsioonid.php">pildifunktsioonid</a></li>
+        <li><a href="content/mobilimall/p2is.php">mobilimall</a></li>
 
         <li>
             <strong>
