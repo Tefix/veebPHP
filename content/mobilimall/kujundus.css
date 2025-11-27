@@ -139,20 +139,86 @@ h1 {
     line-height: 1.4;
 }
 
-/* Responsive design */
+/* Mobile Responsive Design */
 @media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    
+    #header {
+        margin: 0;
+    }
+    
+    .nav {
+        margin: 5px;
+        border-radius: 10px;
+    }
+    
+    .nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+    
     .nav ul li {
         display: block;
         margin: 0;
+        width: 100%;
     }
     
     .nav ul li a {
         display: block;
-        border-bottom: 1px solid #444;
+        padding: 12px 15px;
+        text-align: center;
+        border-radius: 8px;
+        margin: 2px;
+        background: rgba(255, 255, 255, 0.1);
     }
     
-    .nav ul li:last-child a {
-        border-bottom: none;
+    .nav ul li a:hover {
+        transform: none;
+        background: rgba(255, 255, 255, 0.3);
+    }
+    
+    h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    #content {
+        margin: 15px 5px;
+        padding: 20px 15px;
+        border-radius: 15px;
+    }
+    
+    .teade {
+        padding: 20px 15px;
+        font-size: 15px;
+        border-radius: 12px;
+    }
+    
+    .teade ul {
+        padding: 15px;
+        margin: 10px 0;
+    }
+    
+    .teade li {
+        margin: 8px 0;
+        font-size: 14px;
+    }
+    
+    #footer {
+        margin: 20px 5px 10px 5px;
+        padding: 15px;
+        font-size: 13px;
+        border-radius: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav {
+        margin: 3px;
+        font-size: 14px;
     }
     
     h1 {
@@ -160,7 +226,34 @@ h1 {
     }
     
     #content {
-        margin: 10px 2px;
-        padding: 10px;
+        margin: 10px 3px;
+        padding: 15px 10px;
     }
+    
+    .teade {
+        padding: 15px 10px;
+        font-size: 14px;
+    }
+    
+    #footer {
+        margin: 15px 3px 5px 3px;
+        padding: 12px;
+        font-size: 12px;
+    }
+}
+
+/* Anekdoot styles */
+.anekdoot {
+    background: #e8f5e8;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #4caf50;
+    margin: 15px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.anekdoot p {
+    margin: 8px 0;
+    font-size: 14px;
+    line-height: 1.5;
 }

@@ -5,32 +5,19 @@
     <meta name="viewport" content="width=device-width; initial-scale=1.0;
 maximum-scale=1.0;">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Anekdoodid</title>
+    <title>Tunniplaan</title>
     <link href="kujundus.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="header">
     <div class="nav">
         <ul>
-            <li><a href="index.php">Avaleht</a></li>
-            <li><a href="naljakas.php">Naljakas</a></li>
-            <li><a href="tark.php">Tark</a></li>
-            <li><a href="loom.php">Loomad</a></li>
-            <li><a href="../../index.php">index</a></li>
+            <li><a href="esmaspaev.php">E</a></li>
+            <li><a href="teisipaev.php">T</a></li>
+            <li><a href="kolmapaev.php">K</a></li>
+            <li><a href="neljapaev.php">N</a></li>
+            <li><a href="reede.php">R</a></li>
         </ul>
     </div>
 </div>
 <div class="clear"></div>
-
-<div id="content">
-    <h1>Tere tulemast anekdoodide lehele!</h1>
-    <div class="teade">
-        <p>Siin leheküljel leiad erinevaid naljakaid anekdoote ja lugusid. Vali menüüst sobiv kategooria:</p>
-        <ul>
-            <li><strong>Naljakas</strong> - Lõbusad ja naljakad anekdoodid</li>
-            <li><strong>Tark</strong> - Targad ja mõtlemapanevad lood</li>
-            <li><strong>Loomad</strong> - Anekdoodid loomadest</li>
-        </ul>
-        <p>Loodame, et leiad midagi, mis sind naerma paneb!</p>
-    </div>
-</div>

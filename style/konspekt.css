@@ -1,0 +1,42 @@
+.flex-container > div {
+    border: none !important;
+}
+
+.konspekt h1, .konspekt h2 { 
+    color: #333; 
+}
+
+.konspekt pre {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    border-left: 4px solid #007acc;
+}
+
+.konspekt .section {
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.konspekt ul {
+    background: none !important;
+    list-style-type: disc !important;
+    margin-left: 20px !important;
+    padding: 0 !important;
+}
+
+.konspekt ul li {
+    float: none !important;
+    display: list-item !important;
+    color: black !important;
+}
+
+.konspekt img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: block;
+}
